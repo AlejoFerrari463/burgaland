@@ -67,6 +67,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
       </div>
       <img className='menu-foto' src={imagen} alt="" />
       
+      
        
 
     </div>
