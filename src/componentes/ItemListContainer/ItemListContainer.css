@@ -1,0 +1,7 @@
+.item-list-container-contenedor {
+
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    grid-template-columns: 1fr;  
+}

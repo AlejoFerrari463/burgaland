@@ -5,7 +5,7 @@ import Item from '../Item/Item'
 
 const ItemList = ({prods}) => {
   return (
-    <>
+    <div className='item-list-contenedor ' >
 
         {
 
@@ -18,7 +18,7 @@ const ItemList = ({prods}) => {
 
         }
     
-    </>
+    </div>
   )
 }
 
