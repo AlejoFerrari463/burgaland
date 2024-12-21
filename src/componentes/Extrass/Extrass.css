@@ -1,10 +1,10 @@
-.menu-card {
+.extras-card {
 
     display: grid;
     grid-template-columns: 1fr 300px;
-    height: auto;
     justify-content: center;
     align-items: center;
+    height: auto;
     width: 92%;
     background-color: black;
     color: white;
@@ -12,29 +12,25 @@
     box-shadow: 6px 6px 10px #0050A5;
     font-size: 17px;
     cursor: pointer;
-}
 
-.menu-card:hover {
 
-    box-shadow: 9px 9px 20px #0050A5;
 
 }
 
-.menu-descripcion {
+.extras-descripcion {
   
     text-align: center;
     padding: 20px;
 
 }
 
-.menu-foto {
+
+.extras-foto {
 
     height: 160px;
     width: auto;
     object-fit: contain;
     margin: 20px 20px;
     border-radius: 16px;
-
-
 
 }

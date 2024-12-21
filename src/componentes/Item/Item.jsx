@@ -19,7 +19,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
         {nombre == "fiesta mexicana" && 
         
         <h3 className='mb-3' >
-            <span class="text-success">FIES</span><span class="animate__animated animate__shakeY">TA MEX</span><span class="text-danger">ICANA</span>
+            <span className="text-success">FIES</span><span className="animate__animated animate__shakeY">TA MEX</span><span className="text-danger">ICANA</span>
         </h3>
         
         }
@@ -27,7 +27,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
         {nombre == "italia" && 
         
         <h3 className='mb-3' >
-          BELLA <span class="text-success">ITALIA</span>
+          BELLA <span className="text-success">ITALIA</span>
         </h3>
         
         } 
@@ -35,7 +35,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
         {nombre == "reto tokyo" && 
         
         <h3 className='mb-3' >
-          RET<span class="text-danger">O T</span>OKYO
+          RET<span className="text-danger">O T</span>OKYO
         </h3>
         
         }   
@@ -43,7 +43,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
         {nombre == "samba do brasil" && 
         
         <h3 className='mb-3' >
-          <span class="text-success">SAMBA</span> <span class="text-warning"> DO </span><span class="text-success">BRASIL</span>
+          <span className="text-success">SAMBA</span> <span className="text-warning"> DO </span><span className="text-success">BRASIL</span>
         </h3>
         
         } 
@@ -51,7 +51,7 @@ const Item = ({nombre,ingredientes,cantidad,precio,imagen,tipo}) => {
         {nombre == "sagrada familia" && 
         
         <h3 className='mb-3' >
-          <span class="text-danger">SAGRA</span><span class="text-warning">DA HAM</span><span class="text-danger">BURGUESA</span>
+          <span className="text-danger">SAGRA</span><span className="text-warning">DA HAM</span><span className="text-danger">BURGUESA</span>
         </h3>
         
         } 

@@ -6,6 +6,7 @@ import { collection,getDocs,query,where } from 'firebase/firestore';
 import { db } from '../../services/config';
 import ItemList from '../ItemList/ItemList';
 import Loader from '../Loader/Loader';
+import ExtrasList from '../ExtrasList/ExtrasList';
 
 
 const ItemListContainer = () => {
@@ -167,7 +168,7 @@ const ItemListContainer = () => {
 
             <span id='bebidas' ></span>
             <h1 className='text-center animate__animated animate__pulse' id='bebidas' >BEBIDAS</h1>
-            <ItemList prods={bebidas}/>
+            <ExtrasList prods={bebidas} />
 
 
         </div>}
