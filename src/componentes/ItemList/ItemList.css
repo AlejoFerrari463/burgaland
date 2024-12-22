@@ -4,3 +4,11 @@
     align-content: center;
     grid-template-columns: 1fr 1fr;  
 }
+
+@media screen and (max-width: 1200px) {
+    
+    .item-list-contenedor {
+        grid-template-columns: 1fr;  
+    }
+    
+}

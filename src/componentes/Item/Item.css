@@ -1,10 +1,9 @@
 .menu-card {
 
-    display: grid;
-    grid-template-columns: 1fr 300px;
-    height: auto;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: auto;
     width: 92%;
     background-color: black;
     color: white;
@@ -22,19 +21,90 @@
 
 .menu-descripcion {
   
-    text-align: center;
+    text-align: start;
     padding: 20px;
 
 }
 
 .menu-foto {
 
-    height: 160px;
+    height: 180px;
     width: auto;
     object-fit: contain;
-    margin: 20px 20px;
+    margin: 20px 10px;
     border-radius: 16px;
 
+}
 
+
+@media screen and (min-width: 0px) and (max-width: 390px) {
+
+    .menu-foto {
+
+        height: 60px;
+    
+    }
+
+    .menu-card {
+
+        font-size: 10px;
+
+    }
+    
+    h3 {
+
+        font-size: 12px;
+
+    }
+   
+    
+
+}
+
+@media screen and (min-width: 391px) and (max-width: 500px) {
+
+    
+    .menu-foto {
+
+        height: 100px;
+    
+    }
+
+    .menu-card {
+
+        font-size: 12px;
+
+    }
+    
+    h3 {
+
+        font-size: 18px;
+
+    }
+    
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+
+    
+    .menu-foto {
+
+        height: 120px;
+    
+    }
+
+    .menu-card {
+
+        font-size: 15px;
+
+    }
+    
+    h3 {
+
+        font-size: 20px;
+
+    }
+    
 
 }
