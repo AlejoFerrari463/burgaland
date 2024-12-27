@@ -27,12 +27,16 @@
 .extras-foto {
 
     height: 180px;
-    width: auto;
+    width: 180px;
     object-fit: contain;
     margin: 20px 10px;
     border-radius: 16px;
+   
 
 }
+
+
+
 
 
 @media screen and (min-width: 0px) and (max-width: 390px) {
@@ -40,6 +44,7 @@
     .extras-foto {
 
         height: 60px;
+        width: 60px;
     
     }
 
@@ -65,6 +70,7 @@
     .extras-foto {
 
         height: 100px;
+        width: 100px;
     
     }
 
@@ -89,6 +95,7 @@
     .extras-foto {
 
         height: 120px;
+        width: 120px;
     
     }
 

@@ -36,6 +36,62 @@
 
 }
 
+.menu-boton {
+
+    background-color: #0050A5;
+    padding: 7px 13px;
+    border-radius: 5px;
+    border: none;
+    color:white;
+
+
+}
+
+.modal-content {
+
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px #F02B3D;
+    height: 100%;
+    width: 100%;
+}
+
+
+.modal-body {
+
+    color: white;
+
+}
+
+.modal-header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 80px;
+
+}
+
+.modal-titulo {
+
+    color: white;
+
+}
+
+.modal-body .menu-foto {
+
+    width: auto;
+    height: 160px; 
+}
+
+
+.modal-titulo h3 {
+
+    font-size: 22px;
+
+}
 
 @media screen and (min-width: 0px) and (max-width: 390px) {
 
